@@ -2,6 +2,9 @@
 
 cd ~
 
-ln -s .vimrc ~/.vimrc
-touch ~/.vimrc.local
-ln -s .vim ~/.vim
+ln -s .dotfiles/.vimrc
+ln -s .dotfiles/.vim
+touch .vimrc.local
+
+ln -s .dotfiles/.bashrc
+touch ~/.bashrc.local
