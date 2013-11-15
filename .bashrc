@@ -12,6 +12,10 @@ fi
 
 export EDITOR=vim
 
+# Use fish instead
+/usr/bin/fish
+exit 0
+
 # Up-directory aliases
 alias ..="cd .."
 alias ...="cd ../.."

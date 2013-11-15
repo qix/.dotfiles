@@ -6,5 +6,10 @@ ln -s .dotfiles/.vimrc
 ln -s .dotfiles/.vim
 touch .vimrc.local
 
+ln -s .dotfiles/.tmux.conf
+
+ln -s .dotfiles/.fish
+ln -s .fish .config/fish
+
 ln -s .dotfiles/.bashrc
 touch ~/.bashrc.local
