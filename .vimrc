@@ -1,5 +1,5 @@
-set nocompatible
 set shell=/bin/sh
+set nocompatible
 
 source ~/.vimrc.local
 
