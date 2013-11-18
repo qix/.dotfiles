@@ -1,6 +1,7 @@
-source ~/.vimrc.local
-
 set nocompatible
+set shell=/bin/sh
+
+source ~/.vimrc.local
 
 set guioptions-=T
 set wildmenu
@@ -19,7 +20,6 @@ colorscheme slate
 set autoindent         " Automatically indent
 
 " Some random options
-set autochdir          " Change directories to the current file
 set showcmd            " Show (partial) command in status line.
 set ignorecase         " Do case insensitive matching
 set smartcase          " Do smart case matching
@@ -28,6 +28,8 @@ set autowrite          " Automatically save before commands like :next and :make
 set hidden             " Hide buffers when they are abandoned
 set mouse=a            " Enable mouse usage (all modes)
 set scrolloff=5        " Start scrolling before bottom
+
+"set autochdir          " Change directories to the current file
 
 " Tab completion (when not at start of line)
 function TabOrComplete()
