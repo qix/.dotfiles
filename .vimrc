@@ -16,6 +16,9 @@ set history=1000
 set background=dark
 colorscheme slate
 
+" Indentation and tabbing
+set autoindent         " Automatically indent
+
 " Some random options
 set showcmd            " Show (partial) command in status line.
 set ignorecase         " Do case insensitive matching

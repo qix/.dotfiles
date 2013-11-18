@@ -8,8 +8,10 @@ touch .vimrc.local
 
 ln -s .dotfiles/.tmux.conf
 
-ln -s .dotfiles/.fish
-ln -s .fish .config/fish
+mkdir -p .config/fish
+ln -s .config/fish .fish
+ln -s .dotfiles/.fish/functions .fish
+ln -s .dotfiles/.fish/config.fish .fish
 
 ln -s .dotfiles/.bashrc
 touch ~/.bashrc.local
