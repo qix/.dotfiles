@@ -15,6 +15,9 @@ set history=1000
 set background=dark
 colorscheme slate
 
+" Indentation and tabbing
+set autoindent         " Automatically indent
+
 " Some random options
 set autochdir          " Change directories to the current file
 set showcmd            " Show (partial) command in status line.
