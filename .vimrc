@@ -1,5 +1,5 @@
-set nocompatible
 set shell=/bin/sh
+set nocompatible
 
 source ~/.vimrc.local
 
@@ -15,6 +15,9 @@ set history=1000
 " Color scheme
 set background=dark
 colorscheme slate
+
+" Indentation and tabbing
+set autoindent         " Automatically indent
 
 " Some random options
 set showcmd            " Show (partial) command in status line.
