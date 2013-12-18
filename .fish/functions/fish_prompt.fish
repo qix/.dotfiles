@@ -49,7 +49,7 @@ function fish_prompt --description 'Write out the prompt'
 
         printf '%s%s %s%s%s%s$%s '  \
           $__fish_color_blue $__fish_name \
-          $__fish_prompt_cwd  (pwd) \
+          $__fish_prompt_cwd  (prompt_pwd) \
           $__fish_status \
           $__fish_color_prompt $__fish_color_normal
     end
